@@ -17,3 +17,16 @@ List myRow(List car, var p,){
   car.add(p);
   return car;
 }
+
+List myclass(List school, var sec,){
+  school.add(sec);
+  return school;
+
+//enum status{
+  //tunde, 
+  //kunle,
+  //abike,
+  //dayo
+}
+
+
