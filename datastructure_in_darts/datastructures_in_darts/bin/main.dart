@@ -1,7 +1,7 @@
 import 'package:datastructures_in_darts/datastructures_in_darts.dart' as datastructures_in_darts;
 
 void main(List<String> arguments) {
-  // print('${datastructures_in_darts.printFruits()}!');
+  print('${datastructures_in_darts.printFruits()}!');
   // List myList = [];
   // myList.add(45);
   // myList.add(50);

@@ -1,20 +1,19 @@
-calsum (int x, int y) {
+class Calculator {
 
-var sum = x + y;
- print ("$sum");
-}
-calsub (int x, int y) {
+final int x;
+final int y;
 
-var sub = x - y;
- print ("$sub");
-}
-calmulti (int x, int y) {
+  Calculator(this.x, this.y);
 
-var multi = x * y;
- print ("$multi");
-}
-caldiv (int x, int y) {
+  int addition(){
+    return this.x + this.y;
+  }
 
-var div = x / y;
- print ("$div");
+  int subtraction(){
+    return this.x - this.y;
+  }
+
+  int multplication(){
+    return this.x * this.y;
+  }
 }
